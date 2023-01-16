@@ -1,0 +1,17 @@
+package services;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import entities.Product;
+
+public class PrintService {
+
+	List<Integer> lista = new ArrayList<>();
+	
+	public void addValue(Integer value) {
+		lista.add(value);
+	}
+	
+	
+}

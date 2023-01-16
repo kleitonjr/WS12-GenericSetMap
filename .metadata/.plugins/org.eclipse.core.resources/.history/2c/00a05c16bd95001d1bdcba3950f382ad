@@ -1,0 +1,26 @@
+package services;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PrintService {
+
+	private List<Integer> lista = new ArrayList<>();
+	
+	public void addValue(Integer value) {
+		lista.add(value);
+	}
+	
+	public void print() {
+		System.out.print("[");
+		if(!lista.isEmpty()) {
+			System.out.println(lista.get(0));
+		}
+		for(int i = 1; i<lista.size() ; i++) {
+			System.out.println(", " + lista.get(i));
+			
+		}
+		System.out.println("]");
+	}
+	
+}
