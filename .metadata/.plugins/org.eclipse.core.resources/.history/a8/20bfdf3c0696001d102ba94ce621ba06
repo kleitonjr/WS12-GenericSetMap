@@ -1,0 +1,20 @@
+package services;
+
+import java.util.List;
+
+public class CalculationService {
+	
+	public static <G extends Comparable <G>> G max(List<G> lista) {
+		if(lista.isEmpty()) {
+			throw new IllegalArgumentException("A lista não está vazia!");
+		}
+		G max = lista.get(0);
+			for (G item: lista) {
+				if(item.compareTo(max) > 0) {
+					max = item;
+				}
+			}
+		return max;
+	}
+	
+}

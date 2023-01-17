@@ -1,0 +1,12 @@
+package services;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CalculationService {
+
+	private List<G> lista = new ArrayList<>();
+	
+	public 
+	
+}
