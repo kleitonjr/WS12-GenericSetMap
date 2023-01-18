@@ -15,7 +15,6 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		
 		List<Product> lista = new ArrayList<>();
-		
 		String path = "C:\\temp\\generics.txt";
 		
 		try (BufferedReader br = new BufferedReader(new FileReader(path))){
