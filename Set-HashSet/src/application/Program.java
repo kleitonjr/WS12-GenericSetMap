@@ -5,7 +5,9 @@ import java.util.Set;
 
 public class Program {
 	public static void main(String[] args) {
-
+		
+//		HashSet - mais rápido (operações O(1) em tabela hash) e não ordenado
+		
 		Set<String> set = new HashSet<>();
 		
 //		Adiciona na lista
